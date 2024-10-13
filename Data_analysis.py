@@ -5,7 +5,7 @@ from feature_engine.outliers import Winsorizer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelEncoder
 
-salary_list = pd.read_excel(r"C:\Users\user\OneDrive\Desktop\web\data analysis\salary_list.xlsx")
+salary_list = pd.read_excel(r"C:\Users\salary_list.xlsx") #Excel sheet in the repository...
 
 #Phase 1(Moment 1): Measures of Central Tendancy and Capturing Center Value
 print("Mean of Data")
